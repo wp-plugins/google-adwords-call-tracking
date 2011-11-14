@@ -1,7 +1,7 @@
 === Plugin Name ===
-Contributors: donnie-cooper, nathandidier
+Contributors: DonnieAllenCooper, NathanDidier
 Donate link: 
-Tags: comments, spam
+Tags: call tracking, google adwords, adwords, ppc
 Requires at least: 3.0
 Tested up to: 3.2.1
 Stable tag: 1.0
@@ -29,7 +29,7 @@ If you have any questions, suggestions or just have nice things to say... please
 2. Activate the plugin through the 'Plugins' menu in WordPress
 2. Configure "Adwords Number" in the "Settings" menu
 3. Place `[adwords_phone]` in your pages, posts and widgets.... 
-4. And/or use '<?php adwords_phone($adwords_number, Regular_number); ?>' in your theme files
+4. And/or use the php function 'adwords_phone($adwords_number, $regular_number);' in your theme files
 5. Enjoy knowing how many phone calls Google Adwords is responsible for!
 
 == Frequently Asked Questions ==
