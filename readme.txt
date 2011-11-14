@@ -10,9 +10,7 @@ Display a different phone number accross your website for Google Adwords visitor
 
 == Description ==
 
-The Google Adwords Call Tracking Plugin works by setting a cookie if a visitor has come to your website from an Adwords Campaign.
-Each time the visitor comes back to your website, your Adwords phone number will still be shown if the cookie has not expired.
-You can set the cookie to expire (in seconds) from when the user either first or last visited your website.
+isplay a different phone number accross your website for Google Adwords visitors. The Google Adwords Call Tracking Plugin works by setting a cookie if a visitor has come to your website from an Adwords Campaign. Each time the visitor comes back to your website, your Adwords phone number will still be shown if the cookie has not expired. You can set the cookie to expire (in seconds) from when the user either first or last visited your website.
 
 To use: Simply enter the shortcode [adwords_phone] (in place of a phone number) anywhere throughout your content in wordpress pages, posts or widgets.
 NOTE: You must enable the use of shortcodes for widgets in functions.php.
