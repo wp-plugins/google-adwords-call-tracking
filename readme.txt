@@ -20,7 +20,7 @@ NOTE: You must enable the use of shortcodes for widgets in functions.php.
 Developer Note: Developers can use the custom php function adwords_phone($adwords_number, $regular_number) for use in theme files.
 Where $adwords_number and $regular_number are the contents to be displayed (or actions to be taken) if the cookie is not expired.
 
-For more information about this plugin, please visit our Google Adwords Call Tracking Wordpress Plugin page.
+For more information about this plugin, please visit our [Google Adwords Call Tracking](http://scientificroi.org/blog/google-adwords-call-tracking-wordpress-plugin "Google Adwords Call Tracking Wordpress Plugin") page.
 If you have any questions, suggestions or just have nice things to say... please email us at info@scientificroi.org.
 
 == Installation ==
