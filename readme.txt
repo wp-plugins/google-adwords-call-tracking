@@ -1,7 +1,7 @@
 === Plugin Name ===
 Contributors: Donnie Cooper, nathandidier
 Donate link: 
-Tags: call tracking, google adwords, adwords, ppc
+Tags: call-tracking, google adwords, adwords, ppc
 Requires at least: 3.0
 Tested up to: 3.2.1
 Stable tag: 1.0
