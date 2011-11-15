@@ -83,9 +83,9 @@ function cookie_expiration() {
 
 // if custom adwords cookie is NOT set
 if (!isset($adwords_cookie)) {
-	// if url parameter contains ppc data
+	// if url parameter contains adwords data
 	if (isset($adwords_parameter)) { 
-		// set cookie to expire in 90 days
+		// set cookie to expire in defined number of seconds
 		setcookie($adwords_cookie_name, time(), time()+$cookie_seconds);
 	}
 }
@@ -102,7 +102,7 @@ elseif (isset($adwords_cookie)) {
 
 
 
-/* = [SHORTCODE] adwords_phone_shortcut (NOT USED)
+/* = [SHORTCODE] adwords_phone_shortcut
 --------------------------------------------------------------------------------------------------------------- */
 // echo do_shortcode('[adwords_phone adwords="555-555-5555" regular="444-444-4444"]'); 
 
@@ -135,11 +135,11 @@ function adwords_phone_shortcut($atts) {
   return $adwordsphone_output;
 }
 
-//tell wordpress to register the demolistposts shortcode
+//tell wordpress to register the shortcode
 add_shortcode('adwords_phone', 'adwords_phone_shortcut');
 
 /* ---------------------------------------------------------------------------------------------------------------
-=/[SHORTCODE] adwords_phone_shortcut (NOT USED) */
+=/[SHORTCODE] adwords_phone_shortcut */
 
 
 
@@ -217,7 +217,7 @@ function adwords_phone_option_page() {
     <p>The Google Adwords Call Tracking Plugin works by setting a cookie if a visitor has come to your website from an Adwords Campaign.<br />Each time the visitor comes back to your website, your Adwords phone number will still be shown if the cookie has not expired.<br />You can set the cookie to expire (in seconds) from when the user either first or last visited your website.</p>
     <p>To use: Simply enter the shortcode [adwords_phone] (in place of a phone number) anywhere throughout your content in wordpress pages, posts or widgets.<br /> NOTE: You must <a target="_blank" href="http://www.wprecipes.com/how-to-add-shortcodes-in-sidebar-widgets">enable the use of shortcodes for widgets</a> in functions.php.</p>
     <p>Developer Note: Developers can use the custom php function adwords_phone($adwords_number, $regular_number) for use in theme files.<br /> Where $adwords_number and $regular_number are the contents to be displayed (or actions to be taken) if the cookie is not expired.</p>
-    <p>For more information about this plugin, please visit our <a target+"_blank" href="http://scientificroi.org/blog/google-adwords-call-tracking-wordpress-plugin">Google Adwords Call Tracking Wordpress Plugin</a> page.<br /> If you have any questions, suggestions or just have nice things to say... please email us at info@scientificroi.org.</p>
+    <p>For more information about this plugin, please visit our <a target="_blank" href="http://scientificroi.org/blog/google-adwords-call-tracking-wordpress-plugin">Google Adwords Call Tracking Wordpress Plugin</a> page.<br /> If you have any questions, suggestions or just have nice things to say... please email us at info@scientificroi.org.</p>
     <hr />
     <br /><br />
     <p><h3 style="display:inline;">#1 </h3>Please enter the phone number you want to show for Google Adwords visitors...</p>
@@ -246,7 +246,7 @@ function adwords_phone_option_page() {
     <br /><br />
     <hr />
     <pre>
- _____ _            _____           _ 
+  _____ _            _____           _ 
  |_   _| |__   ___  | ____|_ __   __| |
    | | | '_ \ / _ \ |  _| | '_ \ / _` |
    | | | | | |  __/ | |___| | | | (_| |
@@ -266,6 +266,9 @@ add_action('admin_menu','adwords_plugin_menu');
 
 
 
+// playing around with the code? 
+// Have any awesome ideas? 
+// If so, get in touch and lets work on something together: info@scientificroi.org 
 
 
 
