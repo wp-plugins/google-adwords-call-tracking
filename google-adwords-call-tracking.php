@@ -3,7 +3,7 @@
 Plugin Name: Google Adwords Call Tracking
 Plugin URI: http://scientificroi.org/blog/google-adwords-call-tracking-wordpress-plugin
 Description: Display a different phone number accross your website for Google Adwords visitors. Please configure "Adwords Number" under 'Settings".
-Version: 1.1 
+Version: 1.2 
 Author: ScientificROI.org
 Author URI: http://www.scientificroi.org
 */
