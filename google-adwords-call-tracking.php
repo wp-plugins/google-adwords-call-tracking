@@ -148,7 +148,7 @@ add_shortcode('adwords_phone', 'adwords_phone_shortcut');
 /* = adwords_phone() (option for use in theme files)
 --------------------------------------------------------------------------------------------------------------- */
 
-function adwords_phone($adwords_number, $regular_number) {
+function adwords_phone($adwords_var, $regular_var) {
 // pull in global variables
 	global $adwords_cookie;
 	global $adwords_parameter;
@@ -157,13 +157,13 @@ function adwords_phone($adwords_number, $regular_number) {
 	
 // if custom adwords cookie is set
 	if (isset($adwords_cookie)) {
-		return $adwords_number;
+		return $adwords_var;
 	}
 	elseif (isset($adwords_parameter)) {
-		return $adwords_number;
+		return $adwords_var;
 	}
 	else {
-		return $regular_number;
+		return $regular_var;
 	}
 }
 
