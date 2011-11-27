@@ -19,7 +19,7 @@ Developer Note: Developers can use the custom php function adwords_phone($adword
 Where $adwords_number and $regular_number are the contents to be displayed (or actions to be taken) if the cookie is not expired.
 
 For more information about this plugin, please visit our Google Adwords Call Tracking post... http://scientificroi.org/blog/google-adwords-call-tracking-wordpress-plugin.
-If you have any questions, suggestions or just have nice things to say... please email us at info@scientificroi.org.
+If you have any questions, suggestions or just have nice things to say... please let us know... @scientificroi
 
 == Installation ==
 
