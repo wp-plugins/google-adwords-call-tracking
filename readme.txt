@@ -3,7 +3,7 @@ Contributors: Donnie Cooper, nathandidier
 Donate link: 
 Tags: google adwords, adwords, ppc, call-tracking, tracking
 Requires at least: 3.0
-Tested up to: 3.2.1
+Tested up to: 3.3
 Stable tag: 1.2
 
 Display a different phone number accross your website for Google Adwords visitors. 
