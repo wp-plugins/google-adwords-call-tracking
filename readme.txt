@@ -1,5 +1,5 @@
 === Plugin Name ===
-Contributors: Donnie Cooper, nathandidier
+Contributors: DonnieAllenCooper, nathandidier
 Donate link: 
 Tags: google adwords, adwords, ppc, call-tracking, tracking
 Requires at least: 3.0
